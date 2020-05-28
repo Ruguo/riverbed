@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+   <!-- <parent>
+        <groupId>com.botech</groupId>
+        <artifactId>hb-framework-group</artifactId>
+        <version>3.0.0-SNAPSHOT</version>
+    </parent>-->
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.bd</groupId>
+    <artifactId>realtime-computation-service</artifactId>
+    <version>1.0.0</version>
+
+    <modules>
+        <module>realtime-computation-service-starter</module>
+        <module>realtime-computation-service-biz</module>
+    </modules>
+
+    <packaging>pom</packaging>
+
+    <properties>
+        <hadoop.version>2.6.5</hadoop.version>
+        <flink.version>1.9.1</flink.version>
+        <scala.binary.version>2.11</scala.binary.version>
+        <scala.version>2.11.12</scala.version>
+    </properties>
+
+</project>
